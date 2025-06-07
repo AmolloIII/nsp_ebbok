@@ -1,0 +1,3 @@
+# Plan Approval {.unnumbered}
+
+![](approval_page.png){width="100%"}

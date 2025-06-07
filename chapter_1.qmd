@@ -1,0 +1,154 @@
+# Chapter 1: INTRODUCTION
+
+## Overview
+
+The National Spatial Plan (NSP) - Purpose and Scope The National Spatial Plan (NSP) serves as Kenya's overarching spatial vision, guiding long-term development across the entire country. It defines the general direction for spatial organization and provides national physical planning policies to inform regional, county, and local development plans.
+
+As a flagship project under Kenya Vision 2030, the NSP aims to achieve organized, integrated, sustainable, and balanced national development. It provides a framework to coordinate land use, economic activities, and infrastructure across sectors and regions, supporting the attainment of national social, economic, and environmental goals. Crucially, the NSP integrates and provides a spatial dimension for implementing the Constitution, Kenya Vision 2030, and its strategic flagship projects, facilitating coordination between sectoral agencies.
+
+### Pre-Independence Planning
+
+Kenya's spatial planning history originates in the colonial era, characterized by ordinances aimed at controlling land use, primarily for settler benefit. Key legislation like the Town Land Ordinance (1902) and Crown Land Ordinance (1915) declared all land as Crown Land under the Governor's authority, disregarding indigenous rights and extending leases for settlers.
+
+Planning focused on urban areas, restricting Africans to overcrowded rural reserves. The Swynnerton Plan (1954), a significant colonial policy, restructured African land ownership towards cash crops and individual titles, boosting agriculture in high-potential areas but critically neglecting Arid and Semi-Arid Lands (ASALs), creating regional imbalances and a landless class. The Development and Use of Land Regulations (1961) provided further control over land subdivision and use, establishing a Central Authority.
+
+### Post-Independence Planning
+
+After independence, Kenya established its planning philosophy through Sessional Paper No. 10 (1965), emphasizing planning's role in development but favoring high-potential areas, expecting trickle-down benefits that failed to materialize. Five-Year National Development Plans (NDPs) became the primary tool, initially defining four key planning aspects: physical, social, financial, and economic.
+
+Early efforts included the preparation of Regional Physical Development Plans (RPDPs) to guide coordinated provincial development and the Nairobi Metropolitan Growth Strategy. The Human Settlements Strategy (1978, "Purple Book") was the first comprehensive attempt at a national spatial framework to manage urban growth and integrate physical and socio-economic planning, though implementation was weak. Subsequent NDPs addressed themes like poverty alleviation and resource mobilization.
+
+The District Focus for Rural Development (DFRD) delegated planning to districts to achieve regional balance, leading to district plans. Initiatives like Rural Trade and Production Centres (RTPCs) and Regional Development Authorities aimed to stimulate rural growth and develop ASALs. While the NDP tradition continues, the NSP seeks to build on past efforts, particularly addressing the unresolved challenges targeted by earlier spatial strategies like the Human Settlements Strategy.
+
+Table 1.1 shows the spatial development strategies deployed by the country over the NDP planning periods.
+
+Table 1.1: Spatial Development Strategies Applied in Kenya (1964–2015)
+
+| Period | Spatial Development Strategies | Rationale |
+|------------------|-------------------------|-----------------------------|
+| 1966–1970 | Special Rural Development Programme (SRDP) | Coordinated development aimed primarily at increasing job opportunities and raising the levels of income. |
+|  | 7 Regional (Provincial) Physical Development Plans | Provided for preparation of physical development plans. |
+| 1970–1974 | Service and Growth Centres | Service centres to offer administrative, social and trading services to rural areas; growth centres were strategically located to form future administrative, commercial, and industrial hubs. |
+| 1974–1978 | Growth and Service Centre Strategy with Urbanization Focus | To service rural areas and address rapid urbanization. |
+| 1979–1983 | Alleviation of Poverty | Emphasis on provision of basic needs and infrastructure to improve quality of life. |
+| 1984–1988 | Rural Trade and Production Centres (RTPCs) | To stimulate growth of small market centres and promote agricultural development in their hinterlands. |
+|  | District Focus for Rural Development (DFRD) | Delegated rural development responsibility to districts; aimed at regional balance and infrastructure services. |
+|  | Arid and Semi-Arid Lands Development Programme (ASAL) | Focused on integrated area development in arid and semi-arid regions. |
+| 1989–1993 | Green Towns Project (MoLG and the Dutch Government) | Environmental planning approach involving multiple stakeholders in secondary towns. |
+|  | Regional Development Authorities (RDAs) | Established six regional resource-based authorities covering the entire country. |
+| 1994–1997 | Secondary Towns Programme (World Bank) | Promoted secondary cities to reduce pressure on major urban centres and integrate rural-urban economies. |
+| 2001–2005 | Economic Recovery Strategy for Wealth and Employment Creation (2003–2007) (ESRC) | Blueprint to reverse economic stagnation and included development of Arid and Semi-Arid Lands (ASALs). |
+| 2006–2011 | Kenya Vision 2030 | Aimed to transform Kenya into a newly industrializing, middle-income country by 2030. |
+|  | Kenya Municipal Programme (KMP) – MoLG & WB | Strengthened local governance; improved infrastructure and service delivery in urban counties. |
+| 2012–2016 | National Spatial Plan (NSP) | A 30-year plan (2015–2045) to address land use, socio-economic, and environmental challenges. |
+|  | County Spatial Plans | Required under County Governments Act (2012) to guide spatial development at county level. |
+
+## Scope
+
+The NSP covers the entire territory of Kenya measuring approximately 582,646 km2 including 142,400 km2 of the Exclusive Economic Zone (EEZ). The Plan is a long term spatial planning framework spanning a period of thirty (30) years 2015-2045 and shall be subject to ten (10) year reviews. It is a territorial strategy to guide physical development activities, provide a spatial illustration of all national projects and identify strategies for land development. The Plan aims to address issues of human settlement, urban and rural development, economic development, the natural environment, regional balance, transport and infrastructure.
+
+Map 1.1 shows the territorial extent of the country which comprises of forty seven (47) counties and the EEZ covered by the Plan.
+
+```{r}
+#| echo: false
+#| message: false
+library(sf)
+library(mapview)
+library(rKenyaCensus)
+
+Kenyaste <- rKenyaCensus::KenyaCounties_SHP %>%
+  st_as_sf() %>%
+  st_transform(, crs = 4326)%>%
+  st_make_valid()
+
+mapview::mapview(Kenyaste)
+```
+
+## Purpose of the National Spatial Plan
+
+The NSP provides a national spatial planning framework for integration of social, economic and political policies. Its principal objectives are to: i. Strengthen national economic planning by anchoring national economic policies; ii. Coordinate sectoral agencies by providing the spatial expression to sector policies to mitigate duplication and wastage of resources. iii. Formulate physical/spatial planning policies to support socio-economic and sectoral planning, and iv. Guide the preparation of regional, county and local physical/spatial development plans.
+
+## Rationale for the National Spatial Plan
+
+The National Spatial Plan (NSP) is a direct response to policy mandates from Kenya Vision 2030 (which identified it as a flagship project) and the National Land Policy (Sessional Paper No. 3 of 2009), both recognizing its essential role in socio-economic transformation and sustainable land use. Its preparation is further mandated by the Constitution of Kenya (2010), specifically Article 60, and the Physical Planning Act, aiming to uphold principles of equity, sustainability, efficiency, and productivity.
+
+Historically, Kenya's focus on economic planning without integrating spatial/physical planning has led to uncoordinated development, sectoral fragmentation, resource wastage, and policy overlaps. The country faces significant challenges including rapid urbanization threatening agricultural land and food security, environmental degradation, unbalanced regional development, underperformance in key economic sectors, inadequate infrastructure, and the lack of a national spatial planning framework.
+
+The NSP is designed to address these interconnected problems by providing a comprehensive spatial framework. It will strengthen economic planning by giving spatial expression to economic policies, coordinate sectors, and formulate national strategies, policies, and guidelines to guide balanced and sustainable development.
+
+## Methodology
+
+**Collaborative and Structured Process** 
+
+The NSP was developed through a deliberate, systematic, and multi-faceted process involving extensive stakeholder engagement. It employed a multi-disciplinary and participatory approach, incorporating input from public, private, and civil society organizations. This included broad-based consultations, thematic workshops, seminars, and regional workshops held across Kenya (Kisumu, Eldoret, Nakuru, Nyeri, Embu, Mombasa) to solicit input and build consensus, fulfilling constitutional requirements for public participation in policy-making. Key ministries, departments, agencies (MDAs), and sectoral experts actively participated to align sector policies with the NSP and integrate spatial dimensions.
+
+**Technical Foundations and Benchmarking** 
+
+The methodology was grounded in rigorous technical work. This entailed reviewing existing sectoral policies and plans to ensure NSP recommendations were relevant and harmonized. A foundational Concept Paper outlining the rationale, purpose, objectives, methodology, and resource needs was validated in June 2010. Benchmarking against national spatial plans from countries like Malaysia, Singapore, Germany, South Africa, Egypt, and Ireland identified international best practices, with Malaysian experts providing specific insights. Long-term projections and scenario building were undertaken for population, urbanization, rural development, land/resource use, environment, and global trends to capture future perspectives and simulate sectoral development trajectories.
+
+**Formulating the Spatial Vision and Strategy** 
+
+The strategic spatial direction was shaped by analyzing Kenya's agro-ecological zones, population distribution, settlement patterns, resource potential, infrastructure (current and projected), and Vision 2030 flagship projects. The resulting national spatial vision promotes balanced regional, urban, and rural development through an integrated polycentric model. This model synthesizes three concepts:
+
+Hierarchical Polycentric Regions: Building on the 1978 Human Settlements Strategy, with centres like Nairobi, Mombasa, and Kisumu acting as dominant hubs.
+
+Monocentric Polycentric Regions: Incorporating geographically isolated Vision 2030 growth nodes (e.g., Lamu Port, Konza City, Isiolo Tourist City, Turkana Oil, Marsabit Wind, Nakuru-Naivasha Industrial Zone).
+
+Complementary Polycentric Regions: Reflecting county-level aspirations under devolution, envisioning networks of similarly sized, equally important, and accessible urban centres spread across counties. Policies, strategies, and measures were derived from this integrated polycentric vision.
+
+## Strategic Direction
+
+**Purpose of Strategic Direction** 
+
+The Strategic Direction defines the desired path for Kenya's spatial development, a previously lacking element. It establishes the NSP's core purpose: to provide a framework guiding how the country's physical space should develop. This section outlines the Plan's foundational elements – its Vision, Goal, Objectives, and Principles – which collectively set the course for future spatial planning at all levels.
+
+**Vision and Goal**
+
+Vision: The NSP envisions a "coordinated, integrated and balanced spatial development" for Kenya. This aims to foster national competitiveness, balanced regional growth, prosperity, and a high quality of life for citizens, directly supporting the aspirations of Kenya Vision 2030.
+
+Goal: Kenya aspires to achieve a consistent 10% annual economic growth rate from 2012 to 2030, transitioning to a middle-income economy. The NSP's goal is to enable this by ensuring the "prudent utilization of the national space." It provides the framework for equitable development and aligns with Constitutional mandates requiring efficient, equitable, sustainable, and productive management of land resources.
+
+**Objectives and Principles** 
+
+The Strategic Direction also includes specific Objectives (what the Plan intends to achieve) and fundamental Principles. These principles form the bedrock upon which the entire NSP is built and will guide all future planning decisions and activities across national, regional, county, and local levels, ensuring consistency with the overall strategic vision and goal.
+
+![](strategy.png){width="100%"}
+
+### Objectives
+
+The objectives of the National Spatial Plan are: i. To create a spatial planning context to enhance economic efficiency and strengthen global competitiveness; ii. To promote balanced regional development for national integration and cohesion; iii. To optimize utilization of land and natural resources for sustainable development;. iv. To create livable and functional Human Settlements both urban and rural; v. To secure the natural environment for high quality of life;
+
+## Principles
+
+The following principles guided the preparation of NSP and form the basis upon which all future spatial plans including Regional Spatial Development Plans, County Spatial Plans and Local Physical Development Plans shall be prepared.
+
+1.  **Effective Public participation:** All plans shall be prepared in a participatory and consultative manner with relevant stakeholders and sectoral actors.
+2.  **Urban containment/Compact cities:** Local plans shall strive to limit and control urban growth within the set urban boundaries to protect rich agricultural land, mitigate urban sprawl and reduce cost of infrastructural provision.
+3.  **Livability:** The planning of urban areas shall enhance the livability index in the area of housing, environment, transportation, health, and social engagement. The urban areas must be economically viable, socially inclusive and ecologically sustainable.
+4.  **Smart and green urban growth:** Plans shall promote sustainable use of energy, creation of green spaces, reduce the need for car travel, and promote use of local materials, support businesses, protection of heritage and creation of unique character.
+5.  **Sustainable development:** Balancing social, economic and environmental dimensions of development and catering for current and future generations.
+6.  **Promotion of ecological integrity:** Plans shall promote the protection and conservation of ecologically sensitive areas.
+7.  **Promote public transportation:** Favor public transportation over private transport to ensure efficiency, minimal congestion and functionality of urban places.
+
+## Constitutional, Legal and Policy Basis
+**Constitutional and Legal Foundation**
+
+The NSP is firmly grounded in Kenya's Constitution (2010). Article 5 defines Kenya's territory (the NSP's scope), Article 10 outlines national values (social justice, inclusion, sustainable development), and Article 60 mandates sustainable and productive land management – principles directly shaping the Plan. The Constitution establishes the institutional framework: the National Government sets land planning principles, County Governments handle local planning, and the National Land Commission oversees land use planning nationwide. Key Legislation provides the operational framework, including the Physical Planning Act (primary planning law), County Governments Act (devolving planning), Urban Areas Act (urban governance), Environmental Management Act, Land Acts, Water Act, and others regulating sectoral activities impacting spatial development.
+
+**Alignment with Kenya Vision 2030 and Sector Policies**
+
+The NSP is a direct response to and a flagship project under Kenya Vision 2030, identified as essential for socio-economic transformation. It provides the spatial framework to implement Vision 2030 projects (like LAPSSET, Konza City) and national policies by illustrating their physical locations and interconnections. The Plan actively integrates key Sector Policies to ensure coherence and avoid duplication. These include the National Land Policy (precursor to constitutional land provisions), Policy for Sustainable Development of Northern Kenya/Arid Lands (addressing regional inequality), Agricultural Sector Development Strategy, National Housing Policy, ICT Policy, Industrial Master Plan, National Tourism Strategy, Integrated National Transport Policy, and the National Climate Change Response Strategy. The NSP interprets and spatially expresses these diverse sectoral goals.
+
+**National Physical Planning Framework**
+
+The NSP operates within a multi-level planning system:
+
+National Level: Guided by Vision 2030, Medium Term Plans (MTPs), and the NSP itself. The NSP is the overarching *long-term (30-year)* spatial vision, setting principles for lower-level plans and guiding rational land use and activity distribution.
+
+Regional Level: Regional Plans coordinate development across ecological zones or counties sharing resources (e.g., river basins, corridors, conservation areas).
+
+County Level: Guided by County Integrated Development Plans (CIDPs - 5-year budgets/projects) and County Spatial Plans (GIS-based, 10-year spatial frameworks, reviewed every 5 years, part of CIDPs). Sectoral plans from county departments align with these.
+
+Local Level: Local Physical Development Plans guide specific cities, towns, or urban areas.
+
+![](images/clipboard-1608468253.png)

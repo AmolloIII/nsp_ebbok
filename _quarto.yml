@@ -1,0 +1,33 @@
+project:
+  type: book
+
+book:
+  title: "Kenya National Spatial Plan (2015–2045)"
+  # author: "Ministry of Lands and Physical Planning"
+  # date: "2025-06-07"
+  chapters:
+    - index.qmd
+    - approval_page.qmd
+    - foward.qmd
+    - preface.qmd
+    - acknowledgement.qmd
+    - summary.qmd
+    - acronyms.qmd
+    - chapter_1.qmd
+    - chapter_2.qmd
+    - chapter_3.qmd
+    - chapter_4.qmd
+    - chapter_5.qmd
+    - references.qmd
+    - appendices.qmd
+
+bibliography: references.bib
+format:
+  html:
+    css: styles.css
+    theme: cosmo
+    toc: true
+    toc-depth: 2
+    number-sections: true
+  pdf:
+    documentclass: book

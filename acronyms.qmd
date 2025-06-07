@@ -1,0 +1,58 @@
+# Acronyms and Abbreviations {.unnumbered}
+
+| Acronym   | Full Meaning                                                                 |
+|-----------|------------------------------------------------------------------------------|
+| ASAL      | Arid and Semi-Arid Land                                                     |
+| AWF       | Africa Wildlife Foundation                                                  |
+| BPO       | Business Process Outsourcing                                                |
+| CIDP      | County Integrated Development Plan                                          |
+| CSP       | County Spatial Plan                                                         |
+| DRSRS     | Department of Resource Surveys and Remote Sensing                           |
+| DDC       | District Development Committees                                             |
+| DFRD      | District Focus for Rural Development                                        |
+| EAC       | East African Community                                                      |
+| EEZ       | Exclusive Economic Zone                                                     |
+| ESRC      | Economic and Social Research Council                                        |
+| GDC       | Geothermal Development Company                                              |
+| GDP       | Gross Domestic Product                                                      |
+| GNP       | Gross National Product                                                      |
+| ICD       | Inland Container Depot                                                      |
+| ICT       | Information and Communications Technology                                   |
+| IMR       | Infant Mortality Rate                                                       |
+| INTS      | Integrated National Transport System                                        |
+| KALRO     | Kenya Agriculture and Livestock Research Organization                       |
+| KDHS      | Kenya Demographic and Health Survey                                         |
+| KENHA     | Kenya National Highways Authority                                           |
+| KENINVEST | Kenya Investment Authority                                                  |
+| KFS       | Kenya Forest Services                                                       |
+| KIPPRA    | Kenya Institute of Public Policy Research and Analysis                      |
+| KMP       | Kenya Municipal Programme                                                   |
+| KNBS      | Kenya National Bureau of Statistics                                         |
+| KPC       | Kenya Pipeline Corporation                                                  |
+| KRC       | Kenya Railways Corporation                                                  |
+| KWS       | Kenya Wildlife Services                                                     |
+| LAPSSET   | Lamu Port Southern Sudan-Ethiopia Transport                                 |
+| LPDPs     | Local Physical Development Plans                                            |
+| MDAs      | Ministries, Departments and Agencies                                        |
+| MDGs      | Millennium Development Goals                                                |
+| MoLG      | Ministry of Local Government                                                |
+| MTPs      | Medium Term Plans                                                           |
+| NCD       | Non Communicable Diseases                                                   |
+| NDPs      | National Development Plans                                                  |
+| NEMA      | National Environment Management Authority                                   |
+| NESC      | National Economic and Social Council                                        |
+| NIB       | National Irrigation Board                                                   |
+| NLC       | National Land Commission                                                    |
+| NLP       | National Land Policy                                                        |
+| NMIMT     | Non-Motorized and Intermediate Means of Transport                           |
+| NSP       | National Spatial Plan                                                       |
+| RCMRD     | Regional Centre for Mapping of Resources for Development                    |
+| RDAs      | Regional Development Authorities                                            |
+| RPDP      | Regional Physical Development Plans                                         |
+| RTPC      | Rural Trade and Production Centres                                          |
+| RVR       | Rift Valley Railways                                                        |
+| SDGs      | Sustainable Development Goals                                               |
+| SRDP      | Special Rural Development Plans                                             |
+| TEU       | Twenty Foot Equivalent Units                                                |
+| WARMA     | Water Resources Management Authority                                        |
+| WB        | World Bank                                                                  |

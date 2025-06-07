@@ -1,0 +1,15 @@
+p {
+  text-align: justify;
+}
+
+
+/* Add spacing between Quarto columns */
+.columns {
+  display: flex;
+  gap: 2rem; /* Increase or decrease this value as needed */
+  justify-content: space-between;
+}
+
+.column {
+  padding-right: 1rem;
+}
